@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My TODO App</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <header id="navbar">      
+        <h2>Welcome</h2>
+        <div id="search">
+            <input id="searchTodo" type="text" placeholder="Search" onkeyup="searchTodo()">
+        </div>
+</header>
+    <div class="container">
+        <div id="control" class="controls">
+            <input type="text" placeholder="Your Todo" id="todo" maxlength = "20"> <br>
+            <button class="button" id="add" onclick="addTodo()"> Add</button>
+        </div>
+    
+        <div id="list1">
+            <ul id="list">
+
+            </ul>
+
+        </div>
+    </div>
+    <script src="myTodo.js"></script>
+
+</body>
+</html>
